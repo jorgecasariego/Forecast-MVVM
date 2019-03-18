@@ -16,7 +16,7 @@
             android:name=".ForecastApplication"
             tools:ignore="GoogleAppIndexingWarning"
             android:usesCleartextTraffic="true">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
