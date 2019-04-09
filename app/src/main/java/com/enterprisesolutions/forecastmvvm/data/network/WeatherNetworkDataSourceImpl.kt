@@ -12,6 +12,7 @@ const val FORECAST_DAYS_COUNT = 7
 class WeatherNetworkDataSourceImpl (
     private val apixuWheatherApiService: ApixuWheatherApiService
 ) : WeatherNetworkDataSource {
+
     private val _downloadCurrentWeather = MutableLiveData<CurrentWeatherResponse>()
     override val downloadCurrentWeather: LiveData<CurrentWeatherResponse>
         get() = _downloadCurrentWeather
